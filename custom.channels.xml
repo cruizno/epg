@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<channels>
+    <channel site="gatotv.com" lang="es" xmltv_id="AzClic.mx" site_id="clic">Clic HD</channel>
+    <channel site="gatotv.com" lang="es" xmltv_id="24Horas.es" site_id="24_horas_tve">24 Horas</channel>
+    <channel site="gatotv.com" lang="es" xmltv_id="ESPN.mx" site_id="espn_mexico">ESPN México</channel>
+    <channel site="gatotv.com" lang="es" xmltv_id="ESPNCentro.cr" site_id="espn_costa_rica">ESPN</channel>
+    <channel site="gatotv.com" lang="es" xmltv_id="ESPN2.mx" site_id="espn_2_costa_rica">ESPN 2</channel>
+    <channel site="gatotv.com" lang="es" xmltv_id="ESPN3North.us" site_id="espn_3_costa_rica">ESPN 3 HD</channel>
+    <channel site="gatotv.com" lang="es" xmltv_id="ESPN4North.us" site_id="espn_4_costa_rica">ESPN 4</channel>
+    <channel site="gatotv.com" lang="es" xmltv_id="ESPN5.mx" site_id="espn_5_costa_rica">ESPN 5</channel>
+    <channel site="gatotv.com" lang="es" xmltv_id="ESPN6.mx" site_id="espn_6_costa_rica">ESPN 6</channel>
+</channels>

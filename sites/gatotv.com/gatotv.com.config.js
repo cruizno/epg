@@ -27,6 +27,9 @@ module.exports = {
         date = date.add(1, 'd')
       }
 
+      start = start.plus({ hours: 1 })
+      stop = stop.plus({ hours: 1 })
+
       programs.push({
         title: parseTitle($item),
         description: parseDescription($item),
@@ -77,6 +80,7 @@ function parseStart($item, date) {
   const time = $item('td:nth-child(1) > div > time').attr('datetime')
 
   return DateTime.fromFormat(`${date.format('YYYY-MM-DD')} ${time}`, 'yyyy-MM-dd HH:mm', {
+    // zone: 'America/Costa_Rica'
     zone: 'EST'
   }).toUTC()
 }
@@ -85,6 +89,7 @@ function parseStop($item, date) {
   const time = $item('td:nth-child(2) > div > time').attr('datetime')
 
   return DateTime.fromFormat(`${date.format('YYYY-MM-DD')} ${time}`, 'yyyy-MM-dd HH:mm', {
+    // zone: 'America/Costa_Rica'
     zone: 'EST'
   }).toUTC()
 }
