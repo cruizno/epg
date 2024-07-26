@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <channels>
-    <channel site="clarosports.com" lang="es" xmltv_id="" site_id="">Claro Sports LATAM</channel>
+    <channel site="clarosports.com" lang="es" xmltv_id="clarosports.mx" site_id="claro-sports">Claro Sports LATAM</channel>
+    <channel site="clarosports.com" lang="es" xmltv_id="clarosports2.mx" site_id="claro-sports-2">Claro Sports 2 LATAM</channel>
+    <channel site="clarosports.com" lang="es" xmltv_id="clarosports3.mx" site_id="claro-sports-3">Claro Sports 3 LATAM</channel>
+    <channel site="clarosports.com" lang="es" xmltv_id="clarosports4.mx" site_id="claro-sports-4">Claro Sports 4 LATAM</channel>
 </channels>
