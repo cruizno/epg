@@ -17,7 +17,7 @@ module.exports = {
         items.forEach((item, i) => {
             const prev = programs[programs.length - 1]
             const $item = cheerio.load(item)
-            let start = parseStart($item, date).subtract(1, 'hour')
+            let start = parseStart($item, date).subtract(1, 'h')
             if (!start) return
             if (prev) { 
                 if (start.isBefore(prev.start)) {
