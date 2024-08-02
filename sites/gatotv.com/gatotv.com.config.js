@@ -17,7 +17,7 @@ module.exports = {
     items.forEach((item, i) => {
       const $item = cheerio.load(item)
       let start = parseStart($item, date)
-      if (i === 0 && start.hour >= 5) {
+      if (i === 0 && start.hour >= 6) {
         start = start.plus({ days: 1 })
         date = date.add(1, 'd')
       }
@@ -79,7 +79,7 @@ function parseStart($item, date) {
   const time = $item('td:nth-child(1) > div > time').attr('datetime')
 
   return DateTime.fromFormat(`${date.format('YYYY-MM-DD')} ${time}`, 'yyyy-MM-dd HH:mm', {
-    zone: 'EST'
+    zone: 'America/Costa_Rica'
   }).toUTC()
 }
 
@@ -87,7 +87,7 @@ function parseStop($item, date) {
   const time = $item('td:nth-child(2) > div > time').attr('datetime')
 
   return DateTime.fromFormat(`${date.format('YYYY-MM-DD')} ${time}`, 'yyyy-MM-dd HH:mm', {
-    zone: 'EST'
+    zone: 'America/Costa_Rica'
   }).toUTC()
 }
 
